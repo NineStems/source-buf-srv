@@ -1,5 +1,5 @@
 bgen:
-	buf generate
+	buf generate --debug
 
 blint:
 	buf lint

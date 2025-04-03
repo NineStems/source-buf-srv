@@ -13,7 +13,7 @@ message GetWeatherRequest {
 message GetWeatherResponse {
   float temperature = 1;
   Condition condition = 2;
-  becme.manager.v1.Manager manager = 3;
+  becme.manager.v1.Manager manager2 = 3;
 }
 
 service WeatherService {
